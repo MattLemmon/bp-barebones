@@ -1,8 +1,6 @@
 __BePro BareBones__
 
-_Mobile Only_
-
-WordPress Theme for use with BePro Plugin
+WordPress Theme designed for use with BePro Listings Plugin.
 
 This is a child theme based on the Twenty Twelve theme.
 
@@ -17,67 +15,6 @@ __Installation__
 
 3. Adjust page layouts.
 
-4. Edit Widgets.
+4. Adjust Widgets.
 
 
-__REFERENCE -- BePro Listings SHORTCODES__
-
-Dynamic Map – Setup a map anywhere showing the last listings on your site e.g. [generate_map]
-Basic Search – Allow users to search listings e.g. [search_form]
-Filter Search Table – Allow users to do a more in depth search including, cost, date, etc e.g. [filter_form]
-Filter Search CSS – Allow users to do more in depth search including, cost, date, etc e.g. [bl_search_filter]
-Listings – Show listings with optional paging e.g. [display_listings]
-Front end Upload Form – Give your users the ability to submit from any page or post. You can set a default user id for the listing or force registration. e.g. [create_listing_form]
-Category Links – Allow users to navigate your directory/listings using category links e.g. [display_listing_categories]
-All In One (NEW) – Use one shortcode to implement several features at once. Various configurations available [bl_all_in_one].
-Profile – Use our standalone profile shortcode, no need for buddypress or any other plugin [bl_my_listings]
-
-__SHORTCODE OPTIONS__
-[search_form]
-
-listing_page – enter any url path under your website url set in admin e.g. (Listings)
-geo – If to show geographic related fields e.g  [create_listing_form geo=1] or leave blank for default which is “0″ aka no
-[filter_form]
-
-listing_page – enter any url path under your website url set in admin e.g. (Listings)
-[bl_search_filter]
-
-listing_page – enter any url path under your website url set in admin e.g. (Listings)
-l_type – pre select category
-[generate_map]
-
-pop_up – If set, map icons pop up and informational balloon with link in it instead of default direct linking to post
-size – accepts 4 numeric sizes 1-4 from smallest to largest.
-l_type – Coma separated category ids. Limit listings to provided categories
-[display_listings]
-
-show_paging – Display paging option to user. Must be set to 1 (i.e. show_paging=1)
-type – List only those of a particular listings type. Base version of plugin has types “1″ and “2″. AddOns may add additional type options
-l_type – Coma separated category ids. Limit listings to provided categories
-l_ids – specify coma separated list of page ids
-order_by – order results. Default is Date. Options include
-“1″ = post title
-“2″ = randomize
-“3″ = last name
-order_dir – order direction. Options include
-“1″ = Ascending
-“2″ = Descending
-l_featured – options include “1″ or “true”. This highlights results as featured
-ex_type – categories to exclude. This overrides the “type” option
-[create_listing_form]
-
-default_user_id – The default user id for the listing submission in case the user does not have one.
-geo – If to show geographic related fields e.g address. Usage e.g. [create_listing_form geo=1]
-num_image – Number of listing images to allow user to upload
-register – Show registration fields, user and pass. If user is already a member, we use their user_id
-[display_listing_categories]
-
-url_input – link to a page with the listings shortcode [ display_ listings ]
-cat – category ID that you want to filter listings by
-ctype = (int) 1-4 templates including 2 which display the category images
-[bl_all_in_one]
-
-l_type – template to use. Options include “a1, a2, and a3″
-[bl_my_listings]
-
-No options, just works as is
