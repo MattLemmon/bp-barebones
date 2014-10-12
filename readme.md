@@ -9,12 +9,12 @@ Creates new custom widget areas.
 
 __Installation__
 
-1. Copy the /bepro-barebones/ folder and its contents into your themes folder.
+1. Copy the /bp-barebones/ folder into your themes folder.
 
 2. Activate the theme from the Wordpress Dashboard.
 
-3. Adjust page layouts.
+3. Drag and drop Widgets.
 
-4. Adjust Widgets.
+4. Adjust Page Templates.
 
 
